@@ -45,7 +45,7 @@ streamlit.text(my_data_rows)
 
 #allow the user to add a fruit to the list
 add_my_fruit = read()
-streamlit write("Thanks for adding ", add_my_fruit)
+streamlit.write("Thanks for adding ", add_my_fruit)
 
 
 
